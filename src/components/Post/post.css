@@ -1,0 +1,40 @@
+#post {
+  background: #FFFFFF;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+#post-user {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+#post-user-avatar {
+  padding-right: 5px;
+}
+
+#post-user-avatar img {
+  width: 35px;
+  border-radius: 50%;
+}
+
+#post-user-info span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#post-user-info p {
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 5px;
+  color: lightgray;
+}
+
+#post-user-publication {
+  padding-left: 8px;
+  padding-bottom: 25px;
+  font-size: 15px;
+}
