@@ -9,7 +9,7 @@ class Header extends Component {
       <header id="header">
         <h2>React Interface</h2>
         <div id="header-perfil">
-          <h5 id="header-perfil-title">Meu perfil</h5>
+          <h5 id="header-perfil-title">My Profile</h5>
           <img width='25' src={iconPerfil} />
         </div>
       </header>

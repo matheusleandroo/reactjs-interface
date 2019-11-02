@@ -1,5 +1,5 @@
 #comments {
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   padding-right: 20px;
 }
 #comments-group {
@@ -9,6 +9,7 @@
 }
 
 #comments-group-avatar {
+  padding-top: 3px;
   padding-right: 5px;
 }
 

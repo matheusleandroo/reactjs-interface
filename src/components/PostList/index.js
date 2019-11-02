@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import Post from '../Post/index';
+
 import matheus from '../../assets/matheus.png';
+import leandro from '../../assets/leandro.jpg';
 import diego3g from '../../assets/diego3g.jpg';
+import laura from '../../assets/laura.jpg';
+import rogerio from '../../assets/rogerio.png';
+import julia from '../../assets/julia.jpeg';
  
 import './postList.css';
 
@@ -14,8 +19,8 @@ class PostList extends Component {
           name: "Diego Fernandes",
           avatar: diego3g,
         },
-        date: "01 Nov 2019",
-        content: "Pessoal, estamos contratando. Será que tens o necessário?",
+        date: "07 Nov 2019",
+        content: "Guys, we're hiring. Do you have what it takes?",
         comments: [
           {
             id: 1,
@@ -23,34 +28,34 @@ class PostList extends Component {
               name: "Matheus Leandro",
               avatar: matheus
             },
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices arcu sed velit consequat euismod. Aliquam ut sollicitudin lectus. Sed tincidunt, ante id vulputate vulputate, mi urna sagittis diam, non consequat ipsum libero id risus. Pellentesque vel aliquam massa. Vivamus sed lectus sit amet quam rutrum blandit. Nulla at eros mollis, elementum lorem non, lacinia risus. Nam hendrerit vitae lorem ut posuere. Aliquam in velit nec elit vehicula gravida ut eu magna. Suspendisse viverra magna quis augue venenatis gravida. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse ornare nulla in rutrum pellentesque. In pretium, nulla eu euismod placerat, velit ante condimentum nisi, eu porttitor arcu erat et augue. Integer euismod velit eu vestibulum venenatis."
+            content: "I got what it takes, just give me a chance!!!"
+          },
+          {
+            id: 2,
+            author: {
+              name: "Leandro Matheus",
+              avatar: leandro
+            },
+            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus tincidunt orci, vel scelerisque orci volutpat eu. Nunc ac velit magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam pellentesque felis purus, congue fermentum diam rutrum vel."
           }
         ]
       },
       {
         id: 2,
         author: {
-          name: "Ana Maria",
-          avatar: diego3g,
+          name: "Laura Ferreira",
+          avatar: laura,
         },
-        date: "04 Jun 2019",
-        content: "Pessoal, estamos contratando. Alguém se habilita?",
+        date: "04 Oct 2019",
+        content: "Hi guys, do you know anyone good at Node.JS, ReactJS and React Native? Is urgent!",
         comments: [
           {
             id: 1,
             author: {
-              name: "Matheus Leandro",
-              avatar: matheus
+              name: "Rogerio Fernando",
+              avatar: rogerio
             },
-            content: "Euuuu!!!"
-          },
-          {
-            id: 2,
-            author: {
-              name: "Matheus Leandro",
-              avatar: matheus
-            },
-            content: "Euuuu também!!!"
+            content: "Matheus Leandro is very good, and he is passionate for technology. He still learn everyday."
           }
         ]
       }
@@ -59,10 +64,10 @@ class PostList extends Component {
         id: 3,
         author: {
           name: "Julia Alves",
-          avatar: diego3g,
+          avatar: julia,
         },
-        date: "04 Jun 2019",
-        content: "Pessoal, estamos contratando. Alguém se habilita?",
+        date: "29 May 2019",
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus tincidunt orci, vel scelerisque orci volutpat eu. Nunc ac velit magna.",
         comments: [
           {
             id: 1,
@@ -70,7 +75,7 @@ class PostList extends Component {
               name: "Matheus Leandro",
               avatar: matheus
             },
-            content: "Euuuu!!!"
+            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus tincidunt orci, vel scelerisque orci volutpat eu. Nunc ac velit magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam pellentesque felis purus, congue fermentum diam rutrum vel. Proin condimentum metus metus, id tristique massa tempus vitae. Fusce at mollis ipsum. In non enim finibus, dictum arcu ac, molestie enim. Duis eget luctus nunc. Aliquam ut fermentum nisl. Mauris pellentesque, arcu ut ornare lacinia, erat neque sagittis leo, sed consectetur justo libero sed lacus. Integer molestie est in enim lacinia, sed posuere mauris suscipit."
           }
         ]
       }
