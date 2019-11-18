@@ -36,7 +36,7 @@ After clone repository, go to folder and follow this steps:
 <h3>Authors</h3>
 
 <ul>
-  <li>Matheus Leandro</li>
+  <li><a href="http://matheusleandro.com">Matheus Leandro</a></li>
 </ul>
 
 <h3>License</h3>
