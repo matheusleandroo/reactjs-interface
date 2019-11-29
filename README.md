@@ -1,6 +1,12 @@
 # ReactJS Interface
 
-A simple project to have a simple page with ReactJS.
+<h3 align="center">
+  A simple project to have a simple page with ReactJS.
+</h3>
+
+<h1 align="center">
+  <img alt="Home" title="Home" src="https://raw.githubusercontent.com/matheusleandroo/reactjs-interface/master/src/assets/reactjs-interface-home-mobile.png" width="300px" />
+</h1>
 
 <h3>Getting Started</h3>
 
@@ -25,7 +31,9 @@ After instalition, try typing **```yarn -v```** into your command line. You shou
 After clone repository, go to folder and follow this steps:
 
 - Run **`yarn`** to install dependencies;
-- Run **`yarn start`** to start de aplication.
+- Run **`yarn dev`** to start de aplication.
+
+Open **`http://localhost:8080/`** in your browser.
 
 <h3>Built With</h3>
 
